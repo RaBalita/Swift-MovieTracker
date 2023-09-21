@@ -62,6 +62,11 @@ final class MovieManagerTests: XCTestCase {
         sut.CheckOffMovieAtIndex(0)
         
         XCTAssertEqual(sut.GetMovieAtIndex(0).title, dcMovie.title)
+        XCTAssertEqual(sut.moviesSeenCount, 1)
+        
+        sut.CheckOffMovieAtIndex(0)
+        XCTAssertEqual(sut.moviesSeenCount, 2)
+        
     }
     
     func testCheckOffMovie_ReturnsMovieAtIndex(){

@@ -13,7 +13,6 @@ final class LibraryViewControllerTests: XCTestCase {
     var sut : LibraryViewController!
 
     override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
         sut = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "LibraryViewControllerID") as? LibraryViewController
         _ = sut.view
     }
@@ -27,10 +26,18 @@ final class LibraryViewControllerTests: XCTestCase {
         XCTAssertNotNil(sut.libraryTableView)
     }
     
-    // MARK: Data Source
+    // MARK: Data Services: DataSource, Delegate, and Same Object
     func testDataSource_ViewDidLoad_SetsTableViewDataSource(){
         XCTAssertNotNil(sut.libraryTableView.dataSource)
         XCTAssertTrue(sut.libraryTableView.dataSource is MovieLibraryDataService)
     }
-
+    
+    func testDelegate_ViewDidLoad_SetsTableViewDelegate(){
+        XCTAssertNotNil(sut.libraryTableView.delegate)
+        XCTAssertTrue(sut.libraryTableView.delegate is MovieLibraryDataService)
+    }
+    
+    func testDataService_ViewDidLoad_SetsSameObjectForDataSourceAndDelegate(){
+        XCTAssertEqual(sut.libraryTableView.dataSource as! MovieLibraryDataService, sut.libraryTableView.delegate as! MovieLibraryDataService)
+    }
 }
