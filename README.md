@@ -82,7 +82,7 @@ The *PracticeGenius/Assets.xcassets* and *Font* folders were removed, to avoid c
 
 ## Color palette
 <p  align="left">
-<img src="./img/palette.png" width="200" height="150" alt="Color palette">
+<img src="./img/palette.png" width="200" height="150" alt="Color palette"><br/>
 The color palette is taken from <a href="https://colorhunt.co/palette/f0f0f02135554f709ce5d283">Color Hunt</a>:
 
 <br/>
