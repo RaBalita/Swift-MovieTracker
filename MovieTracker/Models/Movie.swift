@@ -8,7 +8,7 @@
 import Foundation
 
 
-struct Movie{
+struct Movie: Equatable {
     let title: String
     let releaseDate: String?
     
@@ -16,4 +16,7 @@ struct Movie{
         self.title = title
         self.releaseDate = releaseDate
     }
+}
+func==(lhs: Movie, rhs: Movie) -> Bool {
+    return (lhs.title == rhs.title && lhs.releaseDate == rhs.releaseDate) ? true : false
 }
