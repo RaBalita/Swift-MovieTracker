@@ -1,0 +1,29 @@
+{
+  "configurations" : [
+    {
+      "id" : "4DA57C4B-763A-4048-8F34-5652B2D883D7",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:MovieTracker.xcodeproj",
+      "identifier" : "18B76E622ABC73E4007A27B3",
+      "name" : "MovieTracker"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:MovieTracker.xcodeproj",
+        "identifier" : "18B76E782ABC73E6007A27B3",
+        "name" : "MovieTrackerTests"
+      }
+    }
+  ],
+  "version" : 1
+}

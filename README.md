@@ -5,8 +5,6 @@
  * Context: Deliberate practice, as an iOS developper		*
  * Language: Swift 											*
  * **********************************************************
- isITfr33+
-
 -->
 
 
@@ -22,15 +20,39 @@ This app serves to have a list of movies that the user has to watch, and allows 
 
 This app is written in Swift and relies on Storyboards and UIKit. It implements a **Model-View-Controller** pattern.
 
-It showcases simple unit tests, testing Models - Views - Controllers, using mocks, and dependancy injection.
+It showcases simple unit tests, testing Models - Views - Controllers, using mocks, and dependancy injection. It also has code coverage enabled, so that testing analytics are available.
 
+
+## Screenshot and Videos 
+
+Here is the screenshot of the app, and a link to a short video demonstration.
+<p  align="center"><a href="https://youtube.com/shorts/mSlzWnqIKWw?feature=share">
+<img src="./img/MovieTrackerCapture.png" width="267" height="542" alt="MovieTracker App screen, with a link to youtbe video">
+</a><br/>
+MovieTracker App, <a target=”_blank” href="https://youtube.com/shorts/mSlzWnqIKWw?feature=share">watch demo on youtube</a>
+</p>
+
+
+### Testing analytics
+
+Here are the data from the last testing report, after enabling *Code Coverage*:
+
+<p align="center">
+<img src="./img/CodeCoverage.png" width="267" height="542" alt="Code Coverage screen capture"><br/>
+Code Coverage
+</p>
+
+<p align="center">
+<img src="./img/Log.png" width="267" height="542" alt="Log screen capture"><br/>
+Log
+</p>
+
+<p align="center">
+<img src="./img/Tests.png" width="267" height="542" alt="Tests screen capture "><br/>
+Tests (duration, number, ...)
+</p>
 
 <!--
-
-
-
-## Screenshots and Videos 
-
 Here are some screenshots of the micro apps and views, some with a youtube link to see them in action. 
 <a href="mailto:jery.sarim@gmail.com?subject=SwiftUI-GeniusApp">Contact me</a>  if you want to know/see more.
 
@@ -40,11 +62,6 @@ Here are some screenshots of the micro apps and views, some with a youtube link 
 Genius Portfolio App, <a target=”_blank” href="https://youtu.be/hw9lIXuCE8c">watch demo on youtube</a>
 </p>
 
-<p  align="center"><a href="https://youtu.be/8kc1APgpa98">
-<img src="./img/rock_paper.png" width="267" height="542" alt="Rock Paper App screen, with a link to youtbe video">
-</a><br/>
-Rock - Paper - Scissors App, <a target=”_blank” href="https://youtu.be/8kc1APgpa98">watch demo on youtube</a>
-</p>
 
 
 <p  align="center"><a href="https://youtu.be/353HMmpiIVY">
@@ -83,7 +100,7 @@ Some concepts of the example apps are taken from a [Udemy Course by Matthieu Pas
 
 The *PracticeGenius/Assets.xcassets* and *Font* folders were removed, to avoid copyright issues.
 
--->
+
 
 ## Credits
 
@@ -101,6 +118,7 @@ The color palette is taken from <a href="https://colorhunt.co/palette/f0f0f02135
 #E5D283 - Yellow <br/>
 </p>
 
+--> 
 ## Contact
 
 <a href="mailto:jery.sarim@gmail.com?subject=SwiftUI-GeniusApp">Let's get in touch.</a> 

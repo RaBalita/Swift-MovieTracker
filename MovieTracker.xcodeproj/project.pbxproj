@@ -36,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1800C25E2ABCEE74006E7C58 /* MovieTracker.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = MovieTracker.xctestplan; sourceTree = "<group>"; };
 		183D416E2ABC7BB100CA7B3C /* MovieStructTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieStructTests.swift; sourceTree = "<group>"; };
 		183D41702ABC7D0100CA7B3C /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		183D41762ABC821A00CA7B3C /* MovieManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieManagerTests.swift; sourceTree = "<group>"; };
@@ -144,6 +145,7 @@
 		18B76E5A2ABC73E4007A27B3 = {
 			isa = PBXGroup;
 			children = (
+				1800C25E2ABCEE74006E7C58 /* MovieTracker.xctestplan */,
 				18B76E652ABC73E4007A27B3 /* MovieTracker */,
 				18B76E7C2ABC73E6007A27B3 /* MovieTrackerTests */,
 				18B76E642ABC73E4007A27B3 /* Products */,

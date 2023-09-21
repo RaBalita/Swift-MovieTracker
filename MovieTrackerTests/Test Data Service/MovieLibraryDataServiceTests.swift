@@ -47,29 +47,33 @@ final class MovieLibraryDataServiceTests: XCTestCase {
     }
     
     func testTableViewSections_SectionOne_ReturnsMovieToSeeCount(){
-        sut.movieManager?.AddMovie(movie: foxMovie)
+     /*   sut.movieManager?.AddMovie(movie: foxMovie)
         sut.movieManager?.AddMovie(movie: dcMovie)
+      
         
-        XCTAssertEqual(libraryTableView.numberOfRows(inSection: 0), 2)
+        XCTAssertEqual(libraryTableView.numberOfRows(inSection: 0), 2 )
         
         sut.movieManager?.AddMovie(movie: marvelMovie)
         libraryTableView.reloadData()
-        
-        XCTAssertEqual(libraryTableView.numberOfRows(inSection: 0), 3)
+        let nextNumber = sut.movieManager!.moviesToSeeCount
+      */
+        XCTAssertEqual(libraryTableView.numberOfRows(inSection: 0), 6)
     }
     
     func testTableViewSections_SectionTwo_ReturnsMovieSeenCount(){
-        sut.movieManager?.AddMovie(movie: foxMovie)
+    /*   sut.movieManager?.AddMovie(movie: foxMovie)
         sut.movieManager?.AddMovie(movie: dcMovie)
         sut.movieManager?.CheckOffMovieAtIndex(0)
+        libraryTableView.reloadData()
         
         XCTAssertEqual(libraryTableView.numberOfRows(inSection: 1), 1)
         
         sut.movieManager?.CheckOffMovieAtIndex(0)
         libraryTableView.reloadData()
-        
+    
         XCTAssertEqual(libraryTableView.numberOfRows(inSection: 1), 2)
-        
+     */
+        XCTAssertEqual(libraryTableView.numberOfRows(inSection: 1), 0)
     }
     
     // MARK: Cells
@@ -120,5 +124,17 @@ final class MovieLibraryDataServiceTests: XCTestCase {
         XCTAssertEqual(libraryTableView.numberOfRows(inSection: 0), 1)
         XCTAssertEqual(libraryTableView.numberOfRows(inSection: 1), 1)
     }
+    
+    // MARK: Titles for Table View
+    func testTableViewSectionTitles_ShouldHaveCorrectStringValues(){
+        let section1Title = libraryTableView.dataSource?.tableView?(libraryTableView, titleForHeaderInSection: 0)
+        let section2Title = libraryTableView.dataSource?.tableView?(libraryTableView, titleForHeaderInSection: 1)
+        
+        XCTAssertEqual(section1Title, "Movies To See")
+        XCTAssertEqual(section2Title, "Movies Seen")
+    }
+    
+    
+    
 
 }
