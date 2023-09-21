@@ -29,7 +29,7 @@ Here is the screenshot of the app, and a link to a short video demonstration.
 <p  align="center"><a href="https://youtube.com/shorts/mSlzWnqIKWw?feature=share">
 <img src="./img/MovieTrackerCapture.png" width="267" height="542" alt="MovieTracker App screen, with a link to youtbe video">
 </a><br/>
-MovieTracker App, <a target=”_blank” href="https://youtube.com/shorts/mSlzWnqIKWw?feature=share">watch demo on youtube</a>
+MovieTracker App, <a target=”_blank” href="https://youtube.com/shorts/mSlzWnqIKWw?feature=share">watch demo on youtube short</a>
 </p>
 
 
@@ -38,17 +38,17 @@ MovieTracker App, <a target=”_blank” href="https://youtube.com/shorts/mSlzWn
 Here are the data from the last testing report, after enabling *Code Coverage*:
 
 <p align="center">
-<img src="./img/CodeCoverage.png" width="267" height="542" alt="Code Coverage screen capture"><br/>
+<img src="./img/CodeCoverage.png" width="691" height="488" alt="Code Coverage screen capture"><br/>
 Code Coverage
 </p>
 
 <p align="center">
-<img src="./img/Log.png" width="267" height="542" alt="Log screen capture"><br/>
+<img src="./img/Log.png" width="691" height="488" alt="Log screen capture"><br/>
 Log
 </p>
 
 <p align="center">
-<img src="./img/Tests.png" width="267" height="542" alt="Tests screen capture "><br/>
+<img src="./img/Tests.png" width="691" height="488" alt="Tests screen capture "><br/>
 Tests (duration, number, ...)
 </p>
 
