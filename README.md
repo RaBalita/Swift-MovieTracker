@@ -20,7 +20,7 @@ This app serves to have a list of movies that the user has to watch, and allows 
 
 This app is written in Swift and relies on Storyboards and UIKit. It implements a **Model-View-Controller** pattern.
 
-It showcases simple unit tests, testing Models - Views - Controllers, using mocks, and dependancy injection. It also has code coverage enabled, so that testing analytics are available.
+It showcases simple unit tests, testing Models - Views - Controllers, using mocks, and dependancy injection. It also has *code coverage* enabled, so that testing analytics are available.
 
 
 ## Screenshot and Videos 
@@ -39,17 +39,17 @@ Here are the data from the last testing report, after enabling *Code Coverage*:
 
 <p align="center">
 <img src="./img/CodeCoverage.png" width="691" height="488" alt="Code Coverage screen capture"><br/>
-Code Coverage
+Code Coverage: 100% on self-written code, the scaffolding classes at project creation do not require to be tested.
 </p>
 
 <p align="center">
 <img src="./img/Log.png" width="691" height="488" alt="Log screen capture"><br/>
-Log
+Log: All tests passed, without any issue.
 </p>
 
 <p align="center">
 <img src="./img/Tests.png" width="691" height="488" alt="Tests screen capture "><br/>
-Tests (duration, number, ...)
+Tests details (duration, number, ...)
 </p>
 
 <!--
