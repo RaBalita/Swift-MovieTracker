@@ -16,6 +16,9 @@ A sample app to showcase **Test-Driven Development** (TDD) in Xcode, with UIKit.
 
 This app serves to have a list of movies that the user has to watch, and allows her to check it once done.
 
+
+
+
 <!--
 
 
@@ -75,6 +78,19 @@ Some concepts of the example apps are taken from a [Udemy Course by Matthieu Pas
 The *PracticeGenius/Assets.xcassets* and *Font* folders were removed, to avoid copyright issues.
 
 -->
+
+
+## Color palette
+<p  align="left">
+<img src="./img/palette.png" width="200" height="150" alt="Color palette">
+The color palette is taken from <a href="https://colorhunt.co/palette/f0f0f02135554f709ce5d283">Color Hunt</a>:
+
+<br/>
+#F0F0F0 - Grey <br/>
+#213555 - Navy <br/>
+#4F709C - Blue <br/>
+#E5D283 - Yellow <br/>
+</p>
 
 ## Contact
 
