@@ -12,7 +12,7 @@
 
 A sample app to showcase **Test-Driven Development** (TDD) in Xcode, with UIKit.
 
-This app serves to have a list of movies that the user has to watch, and allows her to check it once done.
+This app serves to have a list of movies that the user has to watch, and allows her to check it off once done.
 
 ## Screenshot and Videos 
 
@@ -33,7 +33,7 @@ It showcases simple unit tests, testing Models - Views - Controllers, using mock
 
 ### Testing analytics
 
-Here are the data from the last testing report, after enabling *Code Coverage*:
+Here are the data from the final testing report, after enabling *Code Coverage*:
 
 <p align="center">
 <img src="./img/CodeCoverage.png" width="691" height="488" alt="Code Coverage screen capture"><br/>
