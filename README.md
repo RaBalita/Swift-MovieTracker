@@ -50,6 +50,36 @@ Log: All tests passed, without any issue.
 Tests details (duration, number, ...)
 </p>
 
+## Advice for implementing TDD
+
+### From Kent Beck
+
+In his book, *Test-Driven Development: By Example*:
+
+1. Programmers need to write tests
+2. All features need to be covered by these tests
+3. A product can't be shipped if the test suite is not satisfied
+
+### From Robert C. Martin
+
+From [Uncle Bob website](http://www.butunclebob.com/ArticleS.UncleBob.TheThreeRulesOfTdd):
+
+1. You are not allowed to write any production code unless it is to make a failing unit test pass.
+2. You are not allowed to write any more of a unit test than is sufficient to fail; and compilation failures are failures.
+3. You are not allowed to write any more production code than is sufficient to pass the one failing unit test.
+
+<!--
+### New Horizons
+
+Test-Driven Development: By Example by Kent Beck
+
+Test-Driven iOS Development with Swift by Dr. Dominik
+Hauser
+
+XCTAssert classes deep dive
+-->
+
+
 ## Contact
 
 <a href="mailto:jery.sarim@gmail.com?subject=SwiftUI-GeniusApp">Let's get in touch.</a> 
